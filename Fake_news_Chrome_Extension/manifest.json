@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+
+  "name": "Fake_news_detector",
+  "description": "Fake_news_detector",
+  "version": "1.0",
+  "content_scripts":[
+    {
+      "matches":["*://*/*"],
+      "js":["index.js"],
+      "css":["tooltip.css"]
+    }
+  ],
+  "host_permissions":[
+    "https://localhost:8080/get",
+    "https://*/",
+    "<all_urls>"
+  ],
+  "permissions":[
+    "storage","activeTab",
+    "tabs",
+    "scripting",
+    "cookies",
+    "declarativeContent"
+  ]
+}

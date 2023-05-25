@@ -1,0 +1,16 @@
+.tooltip {
+    display: inline-block;
+    position: relative;
+    overflow: visible;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: normal;
+    text-align: center;
+  }
